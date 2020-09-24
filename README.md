@@ -3,35 +3,37 @@
 **Code** **similarity** **disguiser** \(CSD\) is a tool to educate students about code similarity for academic integrity in programming. With the tool, learners can independently learn about the many ways that a program can be changed without affecting the underlying code similarity. It can also be used to individualise code-tracing assessments, to anonymise identifying information in student programs, and to generate data sets for the evaluation of code similarity detection that incorporates features of programming style. Further details can be seen in the corresponding paper.  
   
   
-**CSD** provides four modes:  
-1. **disguise**: given a source code project and a list of desired disguises, this mode will disguise the project's code based on the desired disguises. Please be aware that the
-  impact of some disguises might overlap one another. A complete list of disguise IDs can be seen via the fourth mode.  
-  *Command*: 
-  ```
-  disguise <input_project_path> <programming_language> <human_language> <additional_keywords_path> <disguise_id_1> <disguise_id_2> ... <disguise_id_N>  
-  ```  
+## Four CSD Modes 
+### disguise
+Given a source code project and a list of desired disguises, this mode will disguise the project's code based on the desired disguises. Please be aware that the
+impact of some disguises might overlap one another. A complete list of disguise IDs can be seen via the fourth mode.  
+*Command*: 
+```
+disguise <input_project_path> <programming_language> <human_language> <additional_keywords_path> <disguise_id_1> <disguise_id_2> ... <disguise_id_N>  
+```  
     
-2. **diagnose**: given a source code project, this mode will list any applicable disguises.  
-  *Command*: 
-  ```
-  diagnose <input_project_path> <programming_language> <human_language> <additional_keywords_path> <disguise_id_1> <disguise_id_2> ... <disguise_id_N>  
-  ```  
+### diagnose
+Given a source code project, this mode will list any applicable disguises.  
+*Command*: 
+```
+diagnose <input_project_path> <programming_language> <human_language> <additional_keywords_path> <disguise_id_1> <disguise_id_2> ... <disguise_id_N>  
+```  
     
-3. **disguiserandom**: this mode is similar to the first one except that the disguises are randomly applied. The code project will be diagnosed first to assure the applicability
-  of the disguises.  
-  *Command*: 
-  ```
-  disguiserandom <input_project_path> <programming_language> <human_language> <additional_keywords_path> <num_comment_disguises> <num_whitespace_disguises> <num_ident_disguises> <num_constant_and_data_type_disguises>  
-  ```  
-    
-4. **availabledisguises**: this mode will list all available disguises.  
-  *Command*: 
-  ```
-  availabledisguises  
-  ```  
+### disguiserandom
+This mode is similar to the first one except that the disguises are randomly applied. The code project will be diagnosed first to assure the applicability of the disguises.  
+*Command*: 
+```
+disguiserandom <input_project_path> <programming_language> <human_language> <additional_keywords_path> <num_comment_disguises> <num_whitespace_disguises> <num_ident_disguises> <num_constant_and_data_type_disguises>  
+```  
+### availabledisguises
+This mode will list all available disguises.  
+*Command*: 
+```
+availabledisguises  
+```  
   
   
-**Parameters** **description** **in** **alphabetical** **order**:  
+## Parameters description \(sorted alphabetically\):  
   1. *<additional_keywords_path>*: a string representing a file containing additional keywords with newline as the delimiter. Keywords with more than one token should be written by embedding spaces between the tokens. For example, 'System.out.print' should be written as \'System . out . print\'. If unused, please set this to \'null\'.  
     
   2. *<disguise_id>*: a number representing a code disguise. See the complete list at the end of this help.  
