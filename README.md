@@ -42,7 +42,7 @@ values: 0-59.
 ### <human_language>
 A constant depicting the human language used on the applied disguises.  
 values: 'en' for English or 'id' for Indonesian.  
-### *<input_project_path>
+### <input_project_path>
 A string representing the path of the source code projects for input. Please use quotes if the path contains spaces.  
 ### <num_comment_disguises> 
 A number depicting the maximum number of comment disguises that will be applied.  
