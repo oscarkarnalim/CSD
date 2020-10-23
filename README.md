@@ -38,27 +38,27 @@ availabledisguises
 A string representing a file containing additional keywords with newline as the delimiter. Keywords with more than one token should be written by embedding spaces between the tokens. For example, 'System.out.print' should be written as \'System . out . print\'. If unused, please set this to \'null\'.  
 ### <disguise_id>
 A number representing a code disguise. See the complete list at the end of this help.  
-values: 0-59.    
+Values: 0-59.    
 ### <human_language>
 A constant depicting the human language used on the applied disguises.  
-values: 'en' for English or 'id' for Indonesian.  
+Values: 'en' for English or 'id' for Indonesian.  
 ### <input_project_path>
 A string representing the path of the source code projects for input. Please use quotes if the path contains spaces.  
 ### <num_comment_disguises> 
 A number depicting the maximum number of comment disguises that will be applied.  
-values: a non-negative integer lower or equal to 27.  
+Values: a non-negative integer lower or equal to 27.  
 ### <num_constant_and_data_type_disguises>
 A number depicting the maximum number of constant disguises that will be applied.  
-values: a non-negative integer lower or equal to 15.  
+Values: a non-negative integer lower or equal to 15.  
 ### <num_ident_disguises>
 A number depicting the maximum number of identifier disguises that will be applied.  
-values: a non-negative integer lower or equal to 10.  
+Values: a non-negative integer lower or equal to 10.  
 ### <num_whitespace_disguises>
 A number depicting the maximum number of whitespace disguises that will be applied.  
-values: a non-negative integer lower or equal to 8.  
+Values: a non-negative integer lower or equal to 8.  
 ### <programming_language>
 A constant depicting the programming language used on given source code files.  
-values: 'java' (for Java) or 'py' (for Python).  
+Values: 'java' (for Java) or 'py' (for Python).  
 
 ## Acknowledgments
 This tool uses [ANTLR](https://www.antlr.org/) to tokenise given program, [Apache Lucene](https://lucene.apache.org/) to identify common words, [google-java-format](https://github.com/google/google-java-format) to reformat Java program, and [YAPF](https://github.com/google/yapf) to reformat Python program.
