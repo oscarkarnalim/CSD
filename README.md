@@ -1,6 +1,6 @@
 # Code Similarity Disguiser
 
-**Code** **similarity** **disguiser** \(CSD\) is a tool to educate students about code similarity for academic integrity in programming. With the tool, learners can independently learn about the many ways that a program can be changed without affecting the underlying code similarity. It can also be used to individualise code-tracing assessments, to anonymise identifying information in student programs, and to generate data sets for the evaluation of code similarity detection that incorporates features of programming style. Further details can be seen in the corresponding paper.  
+**Code** **similarity** **disguiser** \(CSD\) is a tool to educate students about code similarity for academic integrity in programming. With the tool, learners can independently learn about the many ways that a program can be changed without affecting the underlying code similarity. It can also be used to individualise code-tracing assessments, to anonymise identifying information in student programs, and to generate data sets for the evaluation of code similarity detection that incorporates features of programming style. Further details can be seen in [the corresponding paper](https://doi.org/10.1145/3428029.3428064).  
   
   
 ## Four CSD Modes 
