@@ -59,3 +59,6 @@ values: a non-negative integer lower or equal to 8.
 ### <programming_language>
 A constant depicting the programming language used on given source code files.  
 values: 'java' (for Java) or 'py' (for Python).  
+
+## Acknowledgment
+This tool uses [ANTLR](https://www.antlr.org/) to tokenise given program, [Apache Lucene](https://lucene.apache.org/) to identify common words, [google-java-format](https://github.com/google/google-java-format) to reformat Java program, and [YAPF](https://github.com/google/yapf) to reformat Python program.
