@@ -1,0 +1,7 @@
+print
+input
+str
+int
+float
+range
+self

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="JAR/antlr-4.5.1-complete.jar"/>
+	<classpathentry kind="lib" path="JAR/google-java-format-1.0-all-deps.jar"/>
+	<classpathentry kind="lib" path="JAR/lucene-analyzers-common-8.2.0.jar"/>
+	<classpathentry kind="lib" path="JAR/lucene-core-8.2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

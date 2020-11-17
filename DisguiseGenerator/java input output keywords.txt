@@ -1,0 +1,29 @@
+System . out . print
+System . out . printf
+System . out . println
+java . util . Scanner
+Scanner
+System . in
+. next ( ) ;
+. nextLine ( ) ;
+. nextByte ( ) ;
+. nextShort ( ) ;
+. nextInt ( ) ;
+. nextLong ( ) ;
+. nextFloat ( ) ;
+. nextDouble ( ) ;
+. close ( ) ;
+. equals
+. equalsIgnoreCase
+. charAt
+main
+String
+Character
+Integer
+Short
+Byte
+Long
+Double
+Float
+Exception
+this
